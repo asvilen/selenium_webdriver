@@ -73,6 +73,7 @@ namespace TestProject2
         {
             // Quit the driver
             driver.Quit();
+            driver.Dispose();
         }
     }
 }
